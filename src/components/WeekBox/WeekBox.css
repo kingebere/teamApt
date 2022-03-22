@@ -1,0 +1,22 @@
+.WeekBox {
+  margin-bottom: 16px;
+}
+.WeekBox__left {
+  display: flex;
+  justify-content: space-between;
+}
+.WeekBox__left-1 {
+  display: flex;
+  font-size: var(--default-size);
+}
+ul li:first-child {
+  color: var(--light-grey);
+}
+
+.active-button {
+  background: var(--sidebar-blue);
+  color: var(--original-white);
+  height: 25px;
+  border-radius: 5px;
+  padding: 0px 12px;
+}

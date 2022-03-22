@@ -1,0 +1,72 @@
+.NavBar__circle {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: var(--dark-blue-icon);
+}
+
+.NavBar {
+  display: flex;
+  margin: 24px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavBar__left {
+  display: flex;
+
+  align-items: center;
+  gap: 12px;
+}
+.NavBar__left-1 {
+  display: flex;
+  font-size: var(--default-size);
+  color: var(--light-grey);
+  align-items: center;
+}
+.NavBar__left h1 {
+  color: var(--dark-blue-icon);
+  font-size: 2rem;
+}
+.NavBar__right {
+  display: flex;
+  gap: 44px;
+  font-size: var(--default-size);
+  align-items: center;
+  justify-content: center;
+}
+.NavBar__right div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: center;
+}
+.NavBar__right--1 {
+  height: 26px;
+  width: 1px;
+  background: var(--light-grey);
+}
+.NavBar__right--2 {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.NavBar__header__icon {
+  cursor: pointer;
+  background: var(--dark-blue-number);
+  border-radius: 50%;
+  padding: 4px;
+  height: 33px;
+  width: 33px;
+  animation: rotate 5s infinite;
+}
+.NavBar__header__icon:hover {
+  background: var(--dark-blue-hover);
+}
+@keyframes rotate {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

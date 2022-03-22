@@ -1,0 +1,68 @@
+.MiniBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Minibar__length {
+  height: 5px;
+  width: 56px;
+
+  background-color: var(--light-grey);
+}
+.Minibar__miniLength {
+  height: 5px;
+
+  background-color: var(--purple);
+}
+.Minibar__length > div {
+  transition: width 1s ease-out;
+}
+.MiniBar__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.MiniBar__button {
+  border-style: dashed;
+  border-radius: 17px;
+  margin-right: 33px;
+  font-size: var(--default-size);
+  padding: 8px 23px;
+}
+
+.MiniBar__image-wrapper {
+  display: flex;
+  position: relative;
+}
+.MiniBar__image {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  border: 2px solid var(--original-white);
+  margin-left: -16px;
+}
+.MiniBar__button__text {
+  margin-left: 10px;
+}
+.MiniBar__image-4 {
+  background-color: var(--dark-blue-icon);
+  text-align: center;
+  color: var(--original-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.MiniBar__left-1 {
+  display: flex;
+  gap: 12px;
+  flex-direction: row;
+  align-items: center;
+}
+.MiniBar__left h1 {
+  font-size: 2.5rem;
+}
+.MiniBar__left-1 h3 {
+  font-size: 1.6rem;
+  color: var(--light-grey);
+}

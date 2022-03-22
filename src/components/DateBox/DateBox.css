@@ -1,0 +1,41 @@
+.DateBox {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0;
+}
+
+.DateBox__left {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+.DateBox__left > span {
+  color: var(--light-grey);
+}
+.DateBox__right {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.DateBox__select {
+  padding: 12px 25px;
+  border: none;
+  font-size: 2rem;
+  color: var(--light-grey);
+}
+.DateBox__select > option {
+  color: var(--dark-blue-icon);
+}
+
+.DateBox__right::after {
+  display: block;
+  content: "";
+  position: absolute;
+  border: 2px solid var(--light-grey);
+  width: 129px;
+  top: 4px;
+  border-radius: 23px;
+  left: 36px;
+  background: transparent;
+  height: 43px;
+}

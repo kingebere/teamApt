@@ -1,0 +1,107 @@
+.SideBar {
+  flex: 0 0 20%;
+  flex-direction: column;
+  justify-content: space-between;
+  display: flex;
+  max-width: 20%;
+  padding: 20px;
+  background-color: var(--background-cream);
+}
+.SideBar__task {
+  background-color: var(--background-cream-two);
+  border-radius: 12px;
+  padding: 27px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SideBar__header__icon {
+  cursor: not-allowed;
+}
+.SideBar__task__text {
+  font-size: 2rem;
+  line-height: 1.2;
+  max-width: 101px;
+}
+.SideBar__left__image {
+  height: 34px;
+  width: 34px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+.SideBar__left {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding: 8px 12px;
+}
+.SideBar__textWrapper {
+  margin-right: 24px;
+}
+.SideBar__items {
+  display: flex;
+  gap: 22px;
+  flex-direction: column;
+}
+.SideBar__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: var(--default-size);
+  font-weight: 600;
+  cursor: pointer;
+}
+.SideBar__navigation {
+  cursor: pointer;
+}
+.SideBar__item:hover {
+  color: var(--sidebar-hover);
+}
+.SideBar__item:active {
+  color: var(--sidebar-active);
+}
+
+.SideBar__header__circle,
+.SideBar__task__circle {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  background-color: var(--sidebar-blue);
+}
+.SideBar__item h1 {
+  font-size: var(--default-size);
+}
+.SideBar__task__circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SideBar__task__symbol {
+  color: var(--original-white);
+  font-size: 26px;
+}
+.SideBar__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SideBar__header-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.6rem;
+}
+.SideBar__firstHalf {
+  display: flex;
+  gap: 34px;
+  flex-direction: column;
+}
+.SideBar__left__textWrapper > h1 {
+  font-size: 1.4rem;
+}
+.SideBar__left__textWrapper > h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
