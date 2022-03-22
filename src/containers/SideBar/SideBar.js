@@ -58,11 +58,7 @@ const SideBar = React.forwardRef(({}, sideBarRef) => {
       </div>
       <div>
         <div className="SideBar__left">
-          <img
-            className="SideBar__left__image"
-            src={humans}
-            alt="human"
-          />
+          <img className="SideBar__left__image" src={humans} alt="human" />
 
           <div className="SideBar__left__textWrapper">
             <h1>Finna A.</h1>
