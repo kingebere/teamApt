@@ -13,7 +13,8 @@ npm install
 npm start
 for linting , npm run lint
 for linting fix , npm run lint:fix
-for test , run npm test
+for test , run npm test , please press a to run all test if you encounter an issue
+
 ```
 
 ## Built with
